@@ -19,7 +19,7 @@ const FetchAlbumCarousel = () => {
 
   return (
     <>
-      <h2>React Responsive Carouse</h2>
+      <h2>React Responsive Carousel</h2>
       <Carousel>
         {slideData.map((image) => {
           return (
