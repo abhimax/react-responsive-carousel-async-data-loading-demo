@@ -1,12 +1,17 @@
-import { useState } from "react";
 import "./App.css";
+import LocalDataCarousel from "./components/LocalDataCarousel";
+import FetchAlbumCarousel from "./components/FetchAlbumCarousel";
+import FetchAlbumChunkCarousel from "./components/FetchAlbumChunkCarousel";
+import FetchAlbumChunkAsyncCarousel from "./components/FetchAlbumChunkAsyncCarousel";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1>React Responsive Carousel Demos</h1>
+      <LocalDataCarousel />
+      <FetchAlbumCarousel />
+      <FetchAlbumChunkCarousel />
+      <FetchAlbumChunkAsyncCarousel />
     </>
   );
 }
